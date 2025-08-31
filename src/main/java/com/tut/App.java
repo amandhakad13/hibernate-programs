@@ -21,18 +21,18 @@ public class App
         
         Student s1 = new Student();
         
-        s1.setId(101);
-        s1.setName("Avinash");
-        s1.setAge(20);
-        s1.setCity("Indore");
+        s1.setId(102);
+        s1.setName("Jaideep");
+        s1.setAge(25);
+        s1.setCity("Delhi");
         
         StudentAddress sa1 = new StudentAddress();
         
-        sa1.setCity("Indore");
-        sa1.setStreet("1st Street");
-        sa1.setXyz(12.125);
-        sa1.setOpen(true);
-        sa1.setDate(LocalDate.of(2025, 8, 29));
+        sa1.setCity("Delhi");
+        sa1.setStreet("2nd Street");
+        sa1.setXyz(15.254);
+        sa1.setOpen(false);
+        sa1.setDate(LocalDate.of(2024, 7, 19));
         
         FileInputStream fis = new FileInputStream("src/main/java/presentation_img.jpg");
         byte[] b = new byte[fis.available()];
